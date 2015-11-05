@@ -1,0 +1,17 @@
+.product_images {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.product_image_top {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	box-shadow: -5px 5px 5px rgba(0, 0, 0, .4);
+}
+.product_image_bottom {
+	position: absolute;
+	right: 140px;
+	bottom: 0;
+	box-shadow: -5px 5px 5px rgba(0, 0, 0, .4);
+}
