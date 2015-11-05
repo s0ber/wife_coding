@@ -21,9 +21,9 @@
 	position: relative;
 	font-size: 18px;
 	line-height: 45px;
-	color: #090909;
+	color: $darkColor;
 	text-transform: uppercase;
-	border-bottom: 4px solid #090909;
+	border-bottom: 4px solid $darkColor;
 	margin-bottom: 15px;
 	padding-left: 30px;
 	font-weight: bold;
@@ -57,7 +57,7 @@
 
 .info-body em {
 	font-style: italic;
-	color: #090909;
+	color: $darkColor;
 }
 .info-body a {
 	display: block;
