@@ -1,0 +1,30 @@
+.main_info {
+	padding: 15px 0;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.main_info-inner {
+	position: relative;
+	padding: 40px 0 0 30px;
+	background: #FC9927;
+	min-height: 340px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0 2px 1px rgba(0, 0, 0, .2);
+	font-family: 'Myriad Pro';
+	overflow: hidden;
+
+	background: rgb(252,154,39);
+	background: -moz-linear-gradient(-45deg, rgba(252,154,39,1) 0%, rgba(237,115,32,1) 44%, rgba(223,81,27,1) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(252,154,39,1)), color-stop(44%,rgba(237,115,32,1)), color-stop(100%,rgba(223,81,27,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(252,154,39,1) 0%,rgba(237,115,32,1) 44%,rgba(223,81,27,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(252,154,39,1) 0%,rgba(237,115,32,1) 44%,rgba(223,81,27,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(252,154,39,1) 0%,rgba(237,115,32,1) 44%,rgba(223,81,27,1) 100%);
+	background: linear-gradient(135deg, rgba(252,154,39,1) 0%,rgba(237,115,32,1) 44%,rgba(223,81,27,1) 100%);
+}
+
+.main_info h1 {
+	font-size: 85px;
+	line-height: 75px;
+	margin-bottom: 30px;
+}

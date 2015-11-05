@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import 'global.css';
+@import 'blocks/header.css';
+@import 'blocks/main_info.css';
+@import 'blocks/product_info.css';
+@import 'blocks/product_images.css';
+@import 'blocks/additional_info.css';
+@import 'blocks/portfolio.css';
+@import 'blocks/subscribe.css';
+@import 'blocks/footer.css';
