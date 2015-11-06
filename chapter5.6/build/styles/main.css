@@ -96,7 +96,13 @@ header {
     line-height: 20px;
     font-weight: bold;
     color: #FC9B27;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-transition: all .4s;
+    transition: all .4s; }
+    header ul li:hover {
+      color: #000;
+      margin-top: 1px;
+      cursor: pointer; }
   header ul li:first-child {
     margin-left: 0; }
   header ul li.is-active {
@@ -126,6 +132,18 @@ header {
   line-height: 75px;
   margin-bottom: 30px; }
 
+@-webkit-keyframes moving {
+  0%, 100% {
+    right: 0; }
+  50% {
+    right: -5px; } }
+
+@keyframes moving {
+  0%, 100% {
+    right: 0; }
+  50% {
+    right: -5px; } }
+
 .product_info {
   width: 415px;
   height: 45px;
@@ -141,6 +159,18 @@ header {
 .product_info-link {
   float: right;
   color: #FC9B27; }
+  .product_info-link span {
+    display: inline-block;
+    position: relative; }
+  .product_info-link:hover span {
+    -webkit-animation-name: moving;
+            animation-name: moving;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
 
 .product_images {
   position: absolute;
