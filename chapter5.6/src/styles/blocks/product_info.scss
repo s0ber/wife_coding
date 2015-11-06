@@ -1,0 +1,16 @@
+.product_info {
+	width: 415px;
+	height: 45px;
+	padding: 0 15px;
+	background: $darkColor;
+	font-size: 15px;
+	line-height: 45px;
+}
+.product_info-description {
+	float: left;
+	color: #999898;
+}
+.product_info-link {
+	float: right;
+	color: #FC9B27;
+}
