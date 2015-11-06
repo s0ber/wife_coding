@@ -1,0 +1,119 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title
+			| Minimal template example
+		meta(name="keywords" content="")
+		meta(name="description" content="Это мой самый первый сайт.")
+		link(href="styles/main.css" rel="stylesheet")
+
+	body
+		.top_line
+		.wrapper
+			header.clearfix
+				img.logo(src="images/logo.png")
+				nav.clearfix
+					ul.clearfix
+						li.is-active Home
+						li About Us
+						li Portfolio
+						li Services
+						li Blog
+						li Contact Us
+
+			main.main_info
+				.main_info-inner
+					h1
+						| Creative
+						br
+						| Design
+						br
+						| Services
+					.product_info
+						span.product_info-description
+							| Here's some nice work
+						a.product_info-link(href='#')
+							| View portfolio <span>&rarr;</span>
+
+					.product_images
+						img.product_image_bottom(src="images/bottom_image.png")
+						img.product_image_top(src="images/top_image.png")
+
+			section.additional_info.clearfix
+				.info
+					h2.info-title
+						| About us
+					.info-body
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id	sem lobortis scelerisque. Praesent eget consequat libero.
+						p
+							a(href='#')
+								| Read
+
+
+				.info
+					h2.info-title
+						| Our Benefits
+					.info-body
+						ul
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.
+							li
+								| Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat
+							li
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.
+
+				.info
+					h2.info-title
+						| Testimonials
+					.info-body
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque.
+						p
+							em
+								| Rafi, Graphicsfuel.com
+
+			section.portfolio
+				h2.portfolio-title
+					| Our Portfolio
+				.portfolio-body.clearfix
+					.portfolio-img_wrapper
+						img(src="images/portfolio1.png")
+					.portfolio-img_wrapper
+						img(src="images/portfolio2.png")
+					.portfolio-img_wrapper
+						img(src="images/portfolio3.png")
+					.portfolio-img_wrapper
+						img(src="images/portfolio4.png")
+
+			section.subscribe.clearfix
+				.subscribe-blog
+					h2.subscribe-title
+						| Blog Updates
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero.
+
+				.subscribe-social
+					h2.subscribe-title
+						| Connect With Us
+					.subscribe-social_buttons
+						img(src="images/twitter.png")
+						img(src="images/facebook.png")
+						img(src="images/flickr.png")
+						img(src="images/rss.png")
+
+		footer.clearfix
+			.footer_inner
+				nav
+					ul.clearfix
+						li Home
+						li About Us
+						li Portfolio
+						li Services
+						li Blog
+						li Contact Us
+
+				span.copyright
+					| © 2010 CreativeStudio. All Rights Reserved.
+				img(src="images/logo.png" class="footer_logo")
